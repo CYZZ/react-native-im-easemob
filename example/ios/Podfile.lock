@@ -1,20 +1,21 @@
 PODS:
-  - Hyphenate (3.5.1)
   - MJExtension (3.0.15.1)
+  - YfHyphenate (1.0.0)
 
 DEPENDENCIES:
-  - Hyphenate (~> 3.5.1)
   - MJExtension
+  - YfHyphenate
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Hyphenate
     - MJExtension
+  https://github.com/CYZZ/YZSpecs.git:
+    - YfHyphenate
 
 SPEC CHECKSUMS:
-  Hyphenate: 02e3934f1bef0c25e6e5f46bd0940df740922957
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  YfHyphenate: f5c04980be6747e1a502fbbc813e181eae737786
 
-PODFILE CHECKSUM: 8390bf4cca0523ecd2dfcc9ec3afbbc0ebc36b5a
+PODFILE CHECKSUM: 3c57c6719debd0f95401486a45d2f0811db79fb7
 
 COCOAPODS: 1.5.3

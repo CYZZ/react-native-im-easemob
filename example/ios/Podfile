@@ -1,6 +1,8 @@
 platform :ios, '8.0'
 
 target 'EaseMob-Example' do
-    pod 'Hyphenate', '~> 3.5.1'
+    source 'https://github.com/CocoaPods/Specs.git'
+	source 'https://github.com/CYZZ/YZSpecs.git'
+    pod 'YfHyphenate'
     pod 'MJExtension'
 end

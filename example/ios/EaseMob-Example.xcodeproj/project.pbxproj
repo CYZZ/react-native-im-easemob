@@ -814,7 +814,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-EaseMob-Example/Pods-EaseMob-Example-frameworks.sh",
-				"${PODS_ROOT}/Hyphenate/iOS_Pods_IMFullSDK_V3.5.1/Hyphenate.framework",
+				"${PODS_ROOT}/YfHyphenate/class/Hyphenate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -985,10 +985,7 @@
 					"$(PROJECT_DIR)/EaseMob-Example/HyphenateFullSDK-3.4.1",
 				);
 				INFOPLIST_FILE = "EaseMob-Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1010,10 +1007,7 @@
 					"$(PROJECT_DIR)/EaseMob-Example/HyphenateFullSDK-3.4.1",
 				);
 				INFOPLIST_FILE = "EaseMob-Example/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
